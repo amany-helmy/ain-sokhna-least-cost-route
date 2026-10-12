@@ -1,0 +1,40 @@
+Confusion Matrix: C:\Users\hp\Desktop\sokhna_project\DATA\Majority_MAX  
+  
+Overall Accuracy = (5868/5933)  98.9044%  
+Kappa Coefficient = 0.9850  
+  
+                  Ground Truth (Pixels)  
+    Class            Water        Urban       Desert     Mountain        Total  
+ Unclassified            0            0            0            0            0  
+Water [Red] 2         2117            0            0            0         2117  
+Urban [Green]            0         1615            2            0         1617  
+Desert [Blue]            0           62          997            0         1059  
+Mountain [Yel            0            0            1         1139         1140  
+        Total         2117         1677         1000         1139         5933  
+  
+  
+                 Ground Truth (Percent)  
+    Class            Water        Urban       Desert     Mountain        Total  
+ Unclassified         0.00         0.00         0.00         0.00         0.00  
+Water [Red] 2       100.00         0.00         0.00         0.00        35.68  
+Urban [Green]         0.00        96.30         0.20         0.00        27.25  
+Desert [Blue]         0.00         3.70        99.70         0.00        17.85  
+Mountain [Yel         0.00         0.00         0.10       100.00        19.21  
+        Total       100.00       100.00       100.00       100.00       100.00  
+  
+  
+  
+        Class   Commission     Omission          Commission            Omission  
+                 (Percent)    (Percent)            (Pixels)            (Pixels)  
+Water [Red] 2         0.00         0.00              0/2117              0/2117  
+Urban [Green]         0.12         3.70              2/1617             62/1677  
+Desert [Blue]         5.85         0.30             62/1059              3/1000  
+Mountain [Yel         0.09         0.00              1/1140              0/1139  
+  
+  
+        Class   Prod. Acc.    User Acc.          Prod. Acc.           User Acc.  
+                 (Percent)    (Percent)            (Pixels)            (Pixels)  
+Water [Red] 2       100.00       100.00           2117/2117           2117/2117  
+Urban [Green]        96.30        99.88           1615/1677           1615/1617  
+Desert [Blue]        99.70        94.15            997/1000            997/1059  
+Mountain [Yel       100.00        99.91           1139/1139           1139/1140  
